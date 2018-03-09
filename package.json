@@ -4,7 +4,7 @@
   "description": "Sample Platform plugin for homebridge: https://github.com/butsify/homebridge-plugin-alpha2",
   "license": "ISC",
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-alpha2"
   ],
   "repository": {
     "type": "git",

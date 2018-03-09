@@ -6,7 +6,7 @@ const log;
 module.exports = function (homebridge) {
   this.Service = homebridge.hap.Service;
   this.Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("switch-plugin", "PUTO Switch", mySwitch);
+  homebridge.registerAccessory("switch-plugin", "PUTOSwitch", mySwitch);
 };
 
 function mySwitch(log, config) {

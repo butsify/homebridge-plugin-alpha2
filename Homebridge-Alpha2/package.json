@@ -1,7 +1,7 @@
 ﻿{
   "name": "homebridge-samplePlatform",
   "version": "0.0.1",
-  "description": "Sample Platform plugin for homebridge: https://github.com/nfarina/homebridge",
+  "description": "Sample Platform plugin for homebridge: https://github.com/butsify/homebridge-plugin-alpha2",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
@@ -11,7 +11,7 @@
     "url": "https://github.com/butsify/homebridge-plugin-alpha2.git"
   },
   "bugs": {
-    "url": "http://github.com/example/homebridge/issues"
+    "url": "http://github.com/butsify/homebridge-plugin-alpha2"
   },
   "engines": {
     "node": ">=0.12.0",

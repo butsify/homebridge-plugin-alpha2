@@ -1,20 +1,26 @@
-﻿{
-  "name": "homebridge-samplePlatform",
-  "version": "0.0.1",
+{
+  "name": "homebridge-alpha2",
+  "version": "0.0.10",
   "description": "Sample Platform plugin for homebridge: https://github.com/butsify/homebridge-plugin-alpha2",
   "license": "ISC",
   "keywords": [
-    "homebridge-alpha2"
+    "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/butsify/homebridge-plugin-alpha2.git"
+    "url": "git+https://github.com/butsify/homebridge-plugin-alpha2.git"
   },
   "bugs": {
     "url": "http://github.com/butsify/homebridge-plugin-alpha2"
   },
   "engines": {
     "node": ">=0.12.0",
-    "homebridge": ">=0.2.0" 
-  }
+    "homebridge": ">=0.2.0"
+  },
+  "homepage": "https://github.com/butsify/homebridge-plugin-alpha2#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Butsify <tputz@me.com>"
 }

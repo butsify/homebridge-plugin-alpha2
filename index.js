@@ -1,4 +1,4 @@
-﻿const Service, Characteristic;
+﻿var Service, Characteristic;
 const request = require('request');
 const url = require('url');
  

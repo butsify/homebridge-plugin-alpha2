@@ -1,6 +1,6 @@
 {
   "name": "homebridge-alpha2",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Sample Platform plugin for homebridge: https://github.com/butsify/homebridge-plugin-alpha2",
   "license": "ISC",
   "keywords": [

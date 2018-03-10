@@ -5,7 +5,7 @@ const url = require('url');
 module.exports = function (homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory("shomebridge-alpha2", "MyAwesomeSwitch", mySwitch);
+  homebridge.registerAccessory("homebridge-alpha2", "MyAwesomeSwitch", mySwitch);
 };
 
 mySwitch.prototype = {

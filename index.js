@@ -40,11 +40,7 @@ mySwitch.prototype = {
         method: 'GET',
     }, 
     function (error, response, body) {
-      if (error) {
-        me.log('STATUS: ' + response.statusCode);
-        me.log(error.message);
-        return next(error);
-      }
+      me.log('GetSwitch');
       return next(null, body.currentState);
     });
   },
@@ -58,11 +54,7 @@ mySwitch.prototype = {
       headers: {'Content-type': 'application/json'}
     },
     function (error, response) {
-      if (error) {
-        me.log('STATUS: ' + response.statusCode);
-        me.log(error.message);
-        return next(error);
-      }
+      me.log('SetSwitch');
       return next();
     });
   }
